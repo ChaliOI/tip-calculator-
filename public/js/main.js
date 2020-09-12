@@ -7,3 +7,4 @@ app.controller('updateController', function ($scope, socket) {
         { name: "Apple", price: 4.50 },
         { name: "Microsoft", price: 4.00 },
         { name: "Facebook", price: 3.75 }
+    ];
