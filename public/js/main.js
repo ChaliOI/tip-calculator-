@@ -8,3 +8,5 @@ app.controller('updateController', function ($scope, socket) {
         { name: "Microsoft", price: 4.00 },
         { name: "Facebook", price: 3.75 }
     ];
+
+    $scope.start = function () {
