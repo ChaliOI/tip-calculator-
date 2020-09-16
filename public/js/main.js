@@ -10,3 +10,7 @@ app.controller('updateController', function ($scope, socket) {
     ];
 
     $scope.start = function () {
+        socket.emit('start');
+    };
+
+    $scope.stop = function () {
