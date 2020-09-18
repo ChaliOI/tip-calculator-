@@ -14,3 +14,5 @@ app.controller('updateController', function ($scope, socket) {
     };
 
     $scope.stop = function () {
+        socket.emit('stop');
+    };
