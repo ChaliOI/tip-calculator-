@@ -20,3 +20,5 @@ app.controller('updateController', function ($scope, socket) {
     $scope.buy = function (element) {
         socket.emit('buy', element.name);
     };
+
+    socket.on('status', function (data) {
