@@ -22,3 +22,7 @@ app.controller('updateController', function ($scope, socket) {
     };
 
     socket.on('status', function (data) {
+        $scope.status = data.message;
+    });
+
+    socket.on('update', function (data) {
