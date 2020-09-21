@@ -26,3 +26,7 @@ app.controller('updateController', function ($scope, socket) {
     });
 
     socket.on('update', function (data) {
+        $scope.stocks = data.stocks;
+    });
+        
+});
