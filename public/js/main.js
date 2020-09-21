@@ -30,3 +30,7 @@ app.controller('updateController', function ($scope, socket) {
     });
         
 });
+
+app.factory('socket', function ($rootScope) {
+    var socket = io.connect();
+    return {
