@@ -42,3 +42,6 @@ app.factory('socket', function ($rootScope) {
                 });
             });
         },
+        emit: function (eventName, data, callback) {
+            socket.emit(eventName, data, function () {
+                var args = arguments;
