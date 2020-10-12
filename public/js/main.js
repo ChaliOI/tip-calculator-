@@ -49,3 +49,6 @@ app.factory('socket', function ($rootScope) {
                     if (callback) {
                         callback.apply(socket, args);
                     }
+                });
+            });
+        }
