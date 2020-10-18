@@ -1,1 +1,1 @@
-var jade = 
+var jade = req
