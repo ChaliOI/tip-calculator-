@@ -1,1 +1,1 @@
-var jade = require('jade'
+var jade = require('jade')
