@@ -1,2 +1,2 @@
 var jade = require('jade'),
-	ex
+	expr
