@@ -1,4 +1,4 @@
 var jade = require('jade'),
 	express = require('express'),
 	app = express(),
-    server = require('http').creat
+    server = require('http').create
