@@ -2,4 +2,4 @@ var jade = require('jade'),
 	express = require('express'),
 	app = express(),
     server = require('http').createServer(app),
-	io = require('socket.io').liste
+	io = require('socket.io').listen(s
