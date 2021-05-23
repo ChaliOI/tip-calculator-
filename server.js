@@ -4,4 +4,4 @@ var jade = require('jade'),
     server = require('http').createServer(app),
 	io = require('socket.io').listen(server);
 
-app.set('views', __dirname + '
+app.set('views', __dirname + '/
