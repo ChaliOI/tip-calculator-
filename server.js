@@ -5,4 +5,4 @@ var jade = require('jade'),
 	io = require('socket.io').listen(server);
 
 app.set('views', __dirname + '/views');
-app.set('view engi
+app.set('view engine'
