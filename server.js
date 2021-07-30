@@ -9,4 +9,4 @@ app.set('view engine', 'jade');
 
 app.use(express.logger());
 app.use(express.compress());
-app.use(express.static(__dir
+app.use(express.static(__dirna
