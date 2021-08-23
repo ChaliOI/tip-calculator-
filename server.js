@@ -11,4 +11,4 @@ app.use(express.logger());
 app.use(express.compress());
 app.use(express.static(__dirname + '/public'));
 	
-app.get('/', function(r
+app.get('/', function(req, 
