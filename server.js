@@ -20,3 +20,4 @@ console.log('listening on' + process.env.PORT || 4561);
 
 var cp = require('child_process').fork('ticker');
 cp.on('message', function (message) {
+  
