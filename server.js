@@ -22,3 +22,5 @@ var cp = require('child_process').fork('ticker');
 cp.on('message', function (message) {
     io.sockets.emit('update', message);
 });
+
+io.
