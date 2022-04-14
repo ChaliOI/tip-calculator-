@@ -23,4 +23,4 @@ cp.on('message', function (message) {
     io.sockets.emit('update', message);
 });
 
-io.sockets.on('connection', 
+io.sockets.on('connection', func
