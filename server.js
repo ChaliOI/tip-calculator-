@@ -24,4 +24,4 @@ cp.on('message', function (message) {
 });
 
 io.sockets.on('connection', function (socket) {
-    socket.emit('status', { message: "EHLO OK Connec
+    socket.emit('status', { message: "EHLO OK Connect
