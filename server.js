@@ -30,4 +30,4 @@ io.sockets.on('connection', function (socket) {
         socket.emit('status', { message: "Processing" });
     });
     socket.on('stop', function (data) {
-        cp.send({ 
+        cp.send({ op:
