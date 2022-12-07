@@ -31,4 +31,4 @@ io.sockets.on('connection', function (socket) {
     });
     socket.on('stop', function (data) {
         cp.send({ op: 'stop' });
-        socket.emit('status', { message
+        socket.emit('status', { message:
