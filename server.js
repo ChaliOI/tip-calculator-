@@ -33,4 +33,4 @@ io.sockets.on('connection', function (socket) {
         cp.send({ op: 'stop' });
         socket.emit('status', { message: "Stopped" });
     });
-    socket.on('buy', funct
+    socket.on('buy', functi
