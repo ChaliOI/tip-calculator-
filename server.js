@@ -34,4 +34,4 @@ io.sockets.on('connection', function (socket) {
         socket.emit('status', { message: "Stopped" });
     });
     socket.on('buy', function (data) {
-     
+       
