@@ -36,3 +36,4 @@ io.sockets.on('connection', function (socket) {
     socket.on('buy', function (data) {
         cp.send({ op: 'buy', name: data });
     });
+});
