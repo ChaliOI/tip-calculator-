@@ -5,3 +5,6 @@ function Ticker(opt) {
     this._stocks = opt.stocks;
     this._state = null;
 };
+Ticker.prototype.execute = function () {
+    var self = this;
+    this._stocks.forEach(function (p, i) {
