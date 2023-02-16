@@ -10,3 +10,4 @@ Ticker.prototype.execute = function () {
     this._stocks.forEach(function (p, i) {
         p.price -= p.price / self._decay;
     });
+    process.send({ stocks: this._stocks });
