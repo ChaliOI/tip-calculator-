@@ -11,3 +11,9 @@ Ticker.prototype.execute = function () {
         p.price -= p.price / self._decay;
     });
     process.send({ stocks: this._stocks });
+
+    this._state = setTimeout(function () {
+        self.execute();
+    }, 1000);
+};
+Ticker.prototype.stop = function () {
