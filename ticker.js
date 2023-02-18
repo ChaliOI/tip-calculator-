@@ -17,3 +17,4 @@ Ticker.prototype.execute = function () {
     }, 1000);
 };
 Ticker.prototype.stop = function () {
+    clearTimeout(this._state);
