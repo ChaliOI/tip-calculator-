@@ -18,3 +18,6 @@ Ticker.prototype.execute = function () {
 };
 Ticker.prototype.stop = function () {
     clearTimeout(this._state);
+    this._state = null;
+};
+Ticker.prototype.buy = function (name) {
