@@ -24,3 +24,5 @@ Ticker.prototype.buy = function (name) {
     var self = this;
     this._stocks.forEach(function (p, i) {
         if(p.name === name)
+            p.price += p.price / self._growth;
+    });
