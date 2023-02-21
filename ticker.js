@@ -21,3 +21,6 @@ Ticker.prototype.stop = function () {
     this._state = null;
 };
 Ticker.prototype.buy = function (name) {
+    var self = this;
+    this._stocks.forEach(function (p, i) {
+        if(p.name === name)
