@@ -26,3 +26,4 @@ Ticker.prototype.buy = function (name) {
         if(p.name === name)
             p.price += p.price / self._growth;
     });
+};
