@@ -27,3 +27,7 @@ Ticker.prototype.buy = function (name) {
             p.price += p.price / self._growth;
     });
 };
+
+var ticker = new Ticker({
+    growth: 10.0,
+    decay: 1800.0,
