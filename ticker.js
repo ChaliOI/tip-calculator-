@@ -31,3 +31,4 @@ Ticker.prototype.buy = function (name) {
 var ticker = new Ticker({
     growth: 10.0,
     decay: 1800.0,
+    stocks: [
