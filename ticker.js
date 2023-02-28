@@ -34,3 +34,7 @@ var ticker = new Ticker({
     stocks: [
         { name: "Apple", price: 14.50 },
         { name: "Microsoft", price: 43.00 },
+        { name: "Facebook", price: 37.75 }
+    ]
+});
+process.on('message', function (msg) {
