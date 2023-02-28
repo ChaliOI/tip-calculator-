@@ -32,3 +32,4 @@ var ticker = new Ticker({
     growth: 10.0,
     decay: 1800.0,
     stocks: [
+        { name: "Apple", price: 14.50 },
