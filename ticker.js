@@ -38,3 +38,6 @@ var ticker = new Ticker({
     ]
 });
 process.on('message', function (msg) {
+    if (msg.op === 'start') {
+        ticker.execute();
+    }
