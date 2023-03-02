@@ -42,3 +42,5 @@ process.on('message', function (msg) {
         ticker.execute();
     }
     else if (msg.op === 'stop') {
+        ticker.stop();
+    }
