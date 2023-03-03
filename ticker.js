@@ -44,3 +44,6 @@ process.on('message', function (msg) {
     else if (msg.op === 'stop') {
         ticker.stop();
     }
+    else if (msg.op === 'buy') {
+        ticker.buy(msg.name);
+    }
