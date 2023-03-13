@@ -17,3 +17,6 @@ block main
                 h3.no-bottom-margin
                     | Status 
                     span(class='label label-primary') {{status}}
+                .drop
+                    button(type='button', class='btn btn-success', ng-click='start()') Start Decay
+                    button(type='button', class='btn btn-danger' ng-click='stop()') Stop Decay
