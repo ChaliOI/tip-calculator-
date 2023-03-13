@@ -24,3 +24,5 @@ block main
             .col-sm-6
                 ul(class='list-group')
                     li(class='list-group-item', ng-repeat='s in stocks')
+                        span(class='badge') {{s.price | currency}}
+                        {{s.name}}
