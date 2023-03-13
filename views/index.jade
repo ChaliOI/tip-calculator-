@@ -20,3 +20,7 @@ block main
                 .drop
                     button(type='button', class='btn btn-success', ng-click='start()') Start Decay
                     button(type='button', class='btn btn-danger' ng-click='stop()') Stop Decay
+
+            .col-sm-6
+                ul(class='list-group')
+                    li(class='list-group-item', ng-repeat='s in stocks')
