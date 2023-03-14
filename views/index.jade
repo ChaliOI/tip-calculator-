@@ -26,3 +26,4 @@ block main
                     li(class='list-group-item', ng-repeat='s in stocks')
                         span(class='badge') {{s.price | currency}}
                         {{s.name}}
+                        button(type='button', class='btn btn-xs indent', ng-click='buy(s)') Buy
